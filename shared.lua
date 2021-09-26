@@ -40,6 +40,7 @@ QBShared.StarterItems = {
     ["phone"] = {amount = 1, item = "phone"},
     ["id_card"] = {amount = 1, item = "id_card"},
     ["driver_license"] = {amount = 1, item = "driver_license"},
+	["starter_gift"] = {amount = 1, item = "starter_gift"},
 }
 
 QBShared.Items = {
@@ -241,8 +242,10 @@ QBShared.Items = {
 	["id_card"] 					 = {["name"] = "id_card", 			 	  	  	["label"] = "ID Card", 					["weight"] = 0, 		["type"] = "item", 		["image"] = "id_card.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A card containing all your information to identify yourself"},
 	["driver_license"] 				 = {["name"] = "driver_license", 			  	["label"] = "Drivers License", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "driver_license.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Permit to show you can drive a vehicle"},
 	["lawyerpass"] 					 = {["name"] = "lawyerpass", 			 	  	["label"] = "Lawyer Pass", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "lawyerpass.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Pass exclusive to lawyers to show they can represent a suspect"},
-	["tosti"] 						 = {["name"] = "tosti", 			 	  	  	["label"] = "Grilled Cheese Sandwich", 	["weight"] = 200, 		["type"] = "item", 		["image"] = "tosti.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Nice to eat"},
-	["casinochips"] 				 = {["name"] = "casinochips", 			  	  	["label"] = "Casino Chips", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "casinochips.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,	["combinable"] = nil,   ["description"] = "Chips For Casino Gambling"},
+	["tosti"] 						 = {["name"] = "tosti", 			 	  	  	["label"] = "Grilled Cheese Sandwich", 	["weight"] = 200, 		["type"] = "item", 		["image"] = "tosti.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Nice to eat"},
+	["starter_gift"]                 = {["name"] = "starter_gift",                  ["label"] = "Starter Gift",             ["weight"] = 400,       ["type"] = "item",      ["image"] = "starter_gift.png",         ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A small starter gift"},
+	["casinochips"] 				 = {["name"] = "casinochips", 			  	  	["label"] = "Casino Chips", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "casinochips.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Chips For Casino Gambling"},
+	["notepad"]                       = {["name"] = "notepad",                       ["label"] = "Notepad",                 ["weight"] = 0,         ["type"] = "item",         ["image"] = "notepad.png",             ["unique"] = true,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A Notepad."},
 	["water_bottle"] 				 = {["name"] = "water_bottle", 			  	  	["label"] = "Bottle of Water", 			["weight"] = 500, 		["type"] = "item", 		["image"] = "water_bottle.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "For all the thirsty out there"},
 	["beer"] 				 		 = {["name"] = "beer", 			  	  			["label"] = "Beer", 					["weight"] = 500, 		["type"] = "item", 		["image"] = "beer.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Nothing like a good cold beer!"},
 	["whiskey"] 				 	 = {["name"] = "whiskey", 			  	  		["label"] = "Whiskey", 					["weight"] = 500, 		["type"] = "item", 		["image"] = "whiskey.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "For all the thirsty out there"},
@@ -256,6 +259,7 @@ QBShared.Items = {
 	["crack_baggy"] 				 = {["name"] = "crack_baggy", 			  	  	["label"] = "Bag of Crack", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "crack_baggy.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "To get happy faster"},
 	["xtcbaggy"] 					 = {["name"] = "xtcbaggy", 			  	  		["label"] = "Bag of XTC", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "xtc_baggy.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Pop those pills baby"},
 	["plastic"] 					 = {["name"] = "plastic", 			  	  	  	["label"] = "Plastic", 					["weight"] = 100, 		["type"] = "item", 		["image"] = "plastic.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "RECYCLE! - Greta Thunberg 2019"},
+	["thermitec"] = {["name"] = "thermitec", ["label"] = "Thermite Charge", ["weight"] = 1000, ["type"] = "item", ["image"] = "thermitec.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Go Burning"},
 	["metalscrap"] 					 = {["name"] = "metalscrap", 			  	  	["label"] = "Metal Scrap", 				["weight"] = 100, 		["type"] = "item", 		["image"] = "metalscrap.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "You can probably make something nice out of this"},
 	["copper"] 					 	 = {["name"] = "copper", 			  	  		["label"] = "Copper", 					["weight"] = 100, 		["type"] = "item", 		["image"] = "copper.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Nice piece of metal that you can probably use for something"},
 	["aluminum"] 					 = {["name"] = "aluminum", 			  	  		["label"] = "Aluminium", 				["weight"] = 100, 		["type"] = "item", 		["image"] = "aluminum.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Nice piece of metal that you can probably use for something"},
@@ -271,6 +275,7 @@ QBShared.Items = {
 	["shotgun_ammo"] 				 = {["name"] = "shotgun_ammo", 			  	  	["label"] = "Shotgun ammo", 			["weight"] = 500, 		["type"] = "item", 		["image"] = "shotgun_ammo.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Ammo for Shotguns"},
 	["mg_ammo"] 				 	 = {["name"] = "mg_ammo", 			  	  		["label"] = "MG ammo", 					["weight"] = 1000, 		["type"] = "item", 		["image"] = "mg_ammo.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Ammo for Machine Guns"},
 	["snp_ammo"] 				 	 = {["name"] = "snp_ammo", 			  	  		["label"] = "Sniper ammo", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "snp_ammo.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   ["combinable"] = nil,   ["description"] = "Ammo for Sniper Rifles"},
+	["turbo"] 					 = {["name"] = "turbo", 			 	  	["label"] = "Turbo", 				["weight"] = 2500, 		["type"] = "item", 		["image"] = "np_transmission_parts_s.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A nice toolbox with stuff to repair your vehicle"},
 	["lockpick"] 					 = {["name"] = "lockpick", 			 	  	  	["label"] = "Lockpick", 				["weight"] = 300, 		["type"] = "item", 		["image"] = "lockpick.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = {accept = {"screwdriverset"}, reward = "advancedlockpick", anim = {["dict"] = "anim@amb@business@weed@weed_inspecting_high_dry@", ["lib"] = "weed_inspecting_high_base_inspector", ["text"] = "Crafting lockpick", ["timeOut"] = 7500,}},   ["description"] = "Very useful if you lose your keys a lot.. or if you want to use it for something else..."},
 	["advancedlockpick"] 			 = {["name"] = "advancedlockpick", 			 	["label"] = "Advanced Lockpick", 		["weight"] = 500, 		["type"] = "item", 		["image"] = "advancedlockpick.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "If you lose your keys a lot this is very useful... Also useful to open your beers"},
 	["repairkit"] 					 = {["name"] = "repairkit", 			 	  	["label"] = "Repairkit", 				["weight"] = 2500, 		["type"] = "item", 		["image"] = "repairkit.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A nice toolbox with stuff to repair your vehicle"},
@@ -296,8 +301,9 @@ QBShared.Items = {
 	["tunerlaptop"] 				 = {["name"] = "tunerlaptop", 			    	["label"] = "Tunerchip", 				["weight"] = 2000, 		["type"] = "item", 		["image"] = "tunerlaptop.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "With this tunerchip you can get your car on steroids... If you know what you're doing"},
 	["empty_evidence_bag"] 			 = {["name"] = "empty_evidence_bag", 			["label"] = "Empty Evidence Bag", 		["weight"] = 0, 		["type"] = "item", 		["image"] = "evidence.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Used a lot to keep DNA from blood, bullet shells and more"},
 	["filled_evidence_bag"] 		 = {["name"] = "filled_evidence_bag", 			["label"] = "Evidence Bag", 			["weight"] = 200, 		["type"] = "item", 		["image"] = "evidence.png", 			["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A filled evidence bag to see who committed the crime >:("},
-	["armor"] 		 				 = {["name"] = "armor", 						["label"] = "Armor", 					["weight"] = 5000, 	    ["type"] = "item", 		["image"] = "armor.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Some protection won't hurt... right?"},
-	["heavyarmor"] 		 			 = {["name"] = "heavyarmor", 					["label"] = "Heavy Armor", 				["weight"] = 5000, 	    ["type"] = "item", 		["image"] = "armor.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Some protection won't hurt... right?"},
+	["duffel-bag"]                   = {["name"] = "duffel-bag",                    ["label"] = "Bag",                      ["weight"] = 5000,      ["type"] = "item",      ["image"] = "duffel.png",               ["unique"] = true,      ["useable"] = true,     ["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "im bag im baag im baaaaag"},
+	["armor"] 		 			     = {["name"] = "armor", 					    ["label"] = "PD Armor", 				["weight"] = 5000, 	    ["type"] = "item", 		["image"] = "armor.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Some protection won't hurt... right?"},
+	["heavyarmor"] 		 			 = {["name"] = "heavyarmor", 					["label"] = "Armor", 				    ["weight"] = 5000, 	    ["type"] = "item", 		["image"] = "armor.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Some protection won't hurt... right?"},
 	["weed_brick"] 		 			 = {["name"] = "weed_brick", 					["label"] = "Weed Brick", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "weed_brick.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "1KG Weed Brick to sell to large customers."},
 	["coke_brick"] 		 			 = {["name"] = "coke_brick", 					["label"] = "Coke Brick", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "coke_brick.png", 			["unique"] = true, 		["useable"] = false, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Heavy package of cocaine, mostly used for deals and takes a lot of space"},
 	["coke_small_brick"] 		 	 = {["name"] = "coke_small_brick", 				["label"] = "Coke Package", 			["weight"] = 350, 		["type"] = "item", 		["image"] = "coke_small_brick.png", 	["unique"] = true, 		["useable"] = false, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Small package of cocaine, mostly used for deals and takes a lot of space"},
@@ -314,6 +320,7 @@ QBShared.Items = {
 	["police_stormram"] 			 = {["name"] = "police_stormram", 			  	["label"] = "Stormram", 				["weight"] = 18000, 	["type"] = "item", 		["image"] = "police_stormram.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A nice tool to break into doors"},
 	["rolling_paper"] 			 	 = {["name"] = "rolling_paper", 			  	["label"] = "Rolling Paper", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "rolling_paper.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,	   ["combinable"] = {accept = {"weed_white-widow", "weed_skunk", "weed_purple-haze", "weed_og-kush", "weed_amnesia", "weed_ak47"}, reward = "joint", anim = {["dict"] = "anim@amb@business@weed@weed_inspecting_high_dry@", ["lib"] = "weed_inspecting_high_base_inspector", ["text"] = "Rolling joint", ["timeOut"] = 5000,}},   ["description"] = "Paper made specifically for encasing and smoking tobacco or cannabis."},
 	["radio"] 			 	 		 = {["name"] = "radio", 			  			["label"] = "Radio", 					["weight"] = 2000, 		["type"] = "item", 		["image"] = "radio.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "You can communicate with this through a signal"},
+	["stopsign"] 			 	     = {["name"] = "stopsign", 			  			["label"] = "Stop Sign", 			    ["weight"] = 2000, 		["type"] = "item", 		["image"] = "stopsign.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A Stop Sign..?"},
 	["stickynote"] 			 	 	 = {["name"] = "stickynote", 			  		["label"] = "Sticky note", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "stickynote.png", 			["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Sometimes handy to remember something :)"},
 	["phone"] 			 	 	 	 = {["name"] = "phone", 			  			["label"] = "Phone", 					["weight"] = 700, 		["type"] = "item", 		["image"] = "phone.png", 				["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Neat phone ya got there"},
 	["fitbit"] 			 	 	 	 = {["name"] = "fitbit", 			  			["label"] = "Fitbit", 					["weight"] = 500, 		["type"] = "item", 		["image"] = "fitbit.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "I like fitbit"},
@@ -381,6 +388,27 @@ QBShared.Items = {
 	["stripedbass"] 			     = {["name"] = "stripedbass", 			        ["label"] = "Striped Bass",             ["weight"] = 1111,      ["type"] = "item",      ["image"] = "stripedbass.png",          ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "A Striped Bass"},
 	["fishingrod"] 			 		 = {["name"] = "fishingrod", 					["label"] = "Fishing Rod", 				["weight"] = 5000, 		["type"] = "item", 		["image"] = "fishingrod.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A fishing rod for adventures with friends!!"},	
 	["fishingbait"] 			     = {["name"] = "fishingbait", 					["label"] = "Fish Bait", 				["weight"] = 400, 		["type"] = "item", 		["image"] = "fishbait.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A fish bait"},
+	["burger-bleeder"] 				 = {["name"] = "burger-bleeder", 			 	["label"] = "Bleeder", 					["weight"] = 250, 		["type"] = "item", 		["image"] = "bs_the-bleeder.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-moneyshot"] 			 = {["name"] = "burger-moneyshot", 			 	["label"] = "Moneyshot", 				["weight"] = 300, 		["type"] = "item", 		["image"] = "bs_money-shot.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-torpedo"] 				 = {["name"] = "burger-torpedo", 			 	["label"] = "Torpedo", 					["weight"] = 310, 		["type"] = "item", 		["image"] = "bs_torpedo.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-heartstopper"] 		 = {["name"] = "burger-heartstopper", 			["label"] = "Heartstopper", 			["weight"] = 2500, 		["type"] = "item", 		["image"] = "bs_the-heart-stopper.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-meatfree"] 		 	 = {["name"] = "burger-meatfree", 				["label"] = "MeatFree", 			    ["weight"] = 125, 		["type"] = "item", 			["image"] = "bs_meat-free.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-fries"] 				 = {["name"] = "burger-fries", 			 	  	["label"] = "Fries", 			      	["weight"] = 125, 		["type"] = "item", 			["image"] = "bs_fries.png", ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Sates Hunger."},
+	["burger-softdrink"] 			 = {["name"] = "burger-softdrink", 				["label"] = "Soft Drink", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_softdrink.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ice Cold Drink."},
+	["burger-mshake"] 			     = {["name"] = "burger-mshake", 				["label"] = "Milkshake", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_milkshake.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Hand-scooped for you!"},
+	["burger-bun"] 				 	 = {["name"] = "burger-bun", 			 	  	["label"] = "Bun", 		              	["weight"] = 125, 		["type"] = "item", 					["image"] = "bs_bun.png", 		    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-meat"] 				 = {["name"] = "burger-meat", 			 	  	["label"] = "Cooked Patty", 			["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_patty.png", 		    	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-lettuce"] 				 = {["name"] = "burger-lettuce", 			 	["label"] = "Lettuce", 			     	["weight"] = 125, 		["type"] = "item", 			["image"] = "bs_lettuce.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-tomato"] 				 = {["name"] = "burger-tomato", 			 	["label"] = "Tomato", 			     	["weight"] = 125, 		["type"] = "item", 			["image"] = "bs_tomato.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-raw"] 				 	 = {["name"] = "burger-raw", 			 		["label"] = "Raw Patty", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_patty_raw.png", 	        ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-potato"] 				 = {["name"] = "burger-potato", 			 	["label"] = "Bag of Potatoes", 	    	["weight"] = 1500, 		["type"] = "item", 			["image"] = "bs_potato.png", 	    		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-mshakeformula"] 		 = {["name"] = "burger-mshakeformula", 			["label"] = "Milkshake Formula", 		["weight"] = 125, 		["type"] = "item", 		["image"] = "bs_ingredients_icecream.png", ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-sodasyrup"] 		 	 = {["name"] = "burger-sodasyrup", 				["label"] = "Soda Syrup", 	            ["weight"] = 125, 		["type"] = "item", 				["image"] = "bs_ingredients_hfcs.png", 	["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Ingredient"},
+	["burger-toy1"] 		 		 = {["name"] = "burger-toy1", 					["label"] = "Action Figure", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "action-figure.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "An Action Figure From the late 90's"},
+	["burger-toy2"] 		 		 = {["name"] = "burger-toy2", 					["label"] = "Pink Teddy", 				["weight"] = 50, 		["type"] = "item", 		["image"] = "beaniebaby.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "A Fluffy Pink Teddy from the Atic"},
+    ["burger-toy1"] 		 		 = {["name"] = "burger-toy1", 					["label"] = "Action Figure", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "action-figure.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "An Action Figure From the late 90's"},
+	["burger-toy2"] 		 		 = {["name"] = "burger-toy2", 					["label"] = "Pink Teddy", 				["weight"] = 50, 		["type"] = "item", 		["image"] = "beaniebaby.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = "A Fluffy Pink Teddy from the Atic"},
+	["burger-murdermeal"] 		 	 = {["name"] = "burger-murdermeal", 			["label"] = "Murder Meal", 				["weight"] = 125, 		["type"] = "item", 		["image"] = "burger-box.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "An Amazing Murder Meal with a chance of a toy."},
 }
 
 -- // HASH WEAPON ITEMS, NEED SOMETIMES TO GET INFO FOR CLIENT
@@ -599,6 +627,33 @@ QBShared.Jobs = {
             ['0'] = {
                 name = "Freelancer",
                 payment = 10
+            },
+        },
+	},
+	["burgershot"] = {
+		label = "Burgershot Employee",
+		defaultDuty = true,
+		grades = {
+            ['0'] = {
+                name = "Trainee",
+                payment = 50
+            },
+			['1'] = {
+                name = "Employee",
+                payment = 75
+            },
+			['2'] = {
+                name = "Burger Flipper",
+                payment = 100
+            },
+			['3'] = {
+                name = "Manager",
+                payment = 125
+            },
+			['4'] = {
+                name = "CEO",
+				isboss = true,
+                payment = 150
             },
         },
 	},
@@ -848,14 +903,95 @@ QBShared.Jobs = {
 
 -- Vehicles
 QBShared.Vehicles = {
-	["adder"] = {
-		["name"] = "Adder",
-		["brand"] = "Truffade",
-		["model"] = "adder",
+	["r35"] = {
+		["name"] = "GTR R35 2017",
+		["brand"] = "Nissan",
+		["model"] = "r35",
+		["price"] = 900000,
+		["category"] = "imports",
+		["hash"] = `r35`,
+		["shop"] = "tunershop",
+	},
+	["f82lw"] = {
+		["name"] = "M4 F82LW",
+		["brand"] = "BMW",
+		["model"] = "f82lw",
+		["price"] = 900000,
+		["category"] = "imports",
+		["hash"] = `f82lw`,
+		["shop"] = "tunershop",
+	},
+	["lexlfa10"] = {
+		["name"] = "LFA 10",
+		["brand"] = "Lexus",
+		["model"] = "lexlfa10",
+		["price"] = 900000,
+		["category"] = "imports",
+		["hash"] = `lexlfa10`,
+		["shop"] = "tunershop",
+	},
+	["evo9"] = {
+		["name"] = "Evo9",
+		["brand"] = "Mitsubishi",
+		["model"] = "evo9",
+		["price"] = 900000,
+		["category"] = "imports",
+		["hash"] = `evo9`,
+		["shop"] = "tunershop",
+	},
+	["amg63samg"] = {
+		["name"] = "GT63 AMG",
+		["brand"] = "Mercedes",
+		["model"] = "gt63samg",
+		["price"] = 900000,
+		["category"] = "imports",
+		["hash"] = `gt63samg`,
+		["shop"] = "tunershop",
+	},
+    ["mach1"] = {
+	["name"] = "Mustang",
+	["brand"] = "Ford",
+	["model"] = "mach1",
+	["price"] = 30000,
+	["category"] = "imports",
+	["hash"] = `mach1`,
+	["shop"] = "tunershop",
+    },
+	["subwrx"] = {
+    ["name"] = "Subaru WRX",
+        ["brand"] = "Subaru",
+        ["model"] = "subwrx",
+        ["price"] = 30000,
+        ["category"] = "imports",
+        ["hash"] = `subwrx`,
+        ["shop"] = "tunershop",
+    },
+	["benze55"] = {
+		["name"] = "S500",
+		["brand"] = "Mercedes",
+		["model"] = "benze55",
+		["price"] = 5500,
+		["category"] = "imports",
+		["hash"] = `benze55`,
+		["shop"] = "tunershop",
+	},
+	["skyline"] = {
+		["name"] = "Skyline GTR-34",
+		["brand"] = "Nissan",
+		["model"] = "skyline",
+		["price"] = 1955000,
+		["category"] = "imports",
+		["hash"] = `skyline`,
+		["shop"] = "tunershop",
+	},
+	["a80"] = {
+		["name"] = "Supra a80",
+		["brand"] = "Toyota",
+		["model"] = "a80",
 		["price"] = 280000,
-		["category"] = "super",
-		["hash"] = `adder`,
-		["shop"] = "pdm",
+		["category"] = "imports",
+		["hash"] = `a80`,
+		["shop"] = "tunershop",
 	},
 	["alpha"] = {
 		["name"] = "Alpha",
